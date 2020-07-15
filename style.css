@@ -1,0 +1,324 @@
+ #svg-circle {
+     margin-top: 30px;
+     margin-left: 30px;
+     margin-right: 10px;
+ }
+ 
+ #logo {
+     display: inline-flex;
+ }
+ 
+ #logo-title {
+     margin-top: 35px;
+     margin-left: 0px;
+     padding: 0;
+ }
+ 
+ .logo-text {
+     font-family: "Helvetica Now Display DW", sans-serif;
+     font-size: .50rem;
+     line-height: 1.25rem;
+     text-transform: uppercase;
+     font-weight: 799;
+     letter-spacing: .4em;
+     padding-top: 0px;
+     margin-left: 0px;
+ }
+ 
+ #name {
+     display: inline-flexbox;
+     margin-top: 140px;
+     margin-left: 30px;
+     color: grey;
+     font-family: 'Baloo Bhai 2', cursive;
+ }
+ 
+ #name h6 {
+     font-size: .875rem;
+     line-height: 1.25rem;
+     text-transform: uppercase;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-weight: 400;
+     letter-spacing: .4em;
+     color: #878a8f;
+     font-family: "Helvetica Now Display DW", sans-serif;
+ }
+ 
+ .large {
+     font-size: 4.5rem;
+     line-height: 4.6875rem;
+     padding-top: 1px;
+     padding-bottom: 4px;
+     padding-right: 450px;
+     font-family: "Helvetica Now Display DW", sans-serif;
+     font-weight: 800;
+     letter-spacing: -.01em;
+     color: #0f141e;
+ }
+ 
+ .header-light {
+     font-family: "Helvetica Now Display DW", sans-serif;
+     margin-top: 20px;
+     padding-right: 450px;
+     font-weight: 500;
+     color: #878a8f;
+     letter-spacing: normal;
+     font-size: 1.375rem;
+     line-height: 1.875rem;
+     padding-top: 2px;
+     padding-bottom: 3px;
+ }
+ 
+ body {
+     background: url(myimg.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed !important;
+     background-size: 35% !important;
+     background-position: right !important;
+     padding: 1rem;
+     /* padding-top: 45%; */
+     color: #fff;
+ }
+ 
+ #para {
+     display: inline-flexbox;
+     margin-top: 140px;
+     margin-left: 30px;
+     color: grey;
+     font-family: "Helvetica Now Display DW", sans-serif;
+ }
+ 
+ h2 {
+     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+     font-size: 4rem;
+     color: #fff;
+     line-height: 1;
+     position: absolute;
+     top: 10px;
+ }
+ /* #crumb {
+     background-color: indianred;
+ } */
+ 
+ p {
+     margin-bottom: 0.5em;
+     line-height: 1.75em;
+     margin-top: 0;
+     font-size: 1em;
+ }
+ 
+ .breadcrumb {
+     margin-left: 550px;
+     margin-right: 550px;
+ }
+ 
+ .about {
+     height: 300vh;
+     display: flex;
+ }
+ 
+ .about-title {
+     margin-top: 150px;
+     width: 50%;
+     height: 100vh;
+     display: flex;
+     background-color: #f7484e;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+     color: white;
+     /* margin: 0!important; */
+ }
+ 
+ .about-pages {
+     margin-top: 150px;
+     width: 50%;
+ }
+ 
+ .about-pages div {
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     color: rgb(0, 0, 0);
+ }
+ 
+ .about-pages div>h5 {
+     width: 80%;
+     font-size: 1.2em;
+     line-height: 30px;
+ }
+ 
+ .about-pages div>p {
+     width: 80%;
+     font-size: 1em;
+     line-height: 30px;
+ }
+ 
+ .about-pages div>ol {
+     width: 80%;
+     font-size: 1em;
+     line-height: 30px;
+ }
+ 
+ .about-pages div>ul {
+     width: 80%;
+     font-size: 1em;
+     line-height: 30px;
+     padding-left: 90px;
+ }
+ 
+ .about-pages div:nth-child(1) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .about-pages div:nth-child(2) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .about-pages div:nth-child(3) {
+     background-color: rgb(252, 252, 252);
+ }
+ /* .about-pages div:nth-child(3) {
+     background-color: rgb(252, 252, 252);
+ } */
+ 
+ .about-pages div:nth-child(4) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .about-pages div:nth-child(5) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .about-pages div:nth-child(6) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .work {
+     height: 300vh;
+     display: flex;
+ }
+ 
+ .work-title {
+     margin-top: 250px;
+     width: 50%;
+     height: 100vh;
+     display: flex;
+     background-color: white;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+     color: black;
+     /* margin: 0!important; */
+ }
+ 
+ #work {
+     margin-top: 150px;
+ }
+ 
+ .work-pages {
+     width: 50%;
+ }
+ 
+ .work-pages div {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .work-pages div>img {
+     height: 800px;
+ }
+ /* .work-pages div:nth-child(1) {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .work-pages div:nth-child(2) {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .work-pages div:nth-child(3) {
+     width: 100%;
+     height: 100%;
+ } */
+ 
+ .contact {
+     height: 300vh;
+     display: flex;
+     margin-top: 90px;
+ }
+ 
+ .contact-title {
+     margin-top: 315px;
+     width: 50%;
+     height: 100vh;
+     display: flex;
+     background-color: black;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+     color: white;
+     /* margin: 0!important; */
+ }
+ 
+ .contact-pages {
+     margin-top: 315px;
+     width: 50%;
+ }
+ 
+ .contact-pages div {
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-around; */
+     align-items: center;
+     color: rgb(0, 0, 0);
+ }
+ 
+ .contact-pages div>h5 {
+     width: 80%;
+     font-size: 1.2em;
+     line-height: 30px;
+ }
+ 
+ .contact-pages div>p {
+     width: 80%;
+     font-size: 1em;
+     line-height: 30px;
+ }
+ 
+ .contact-pages div>a {
+     width: 80%;
+     font-size: 1em;
+     line-height: 30px;
+ }
+ 
+ .contact-pages div:nth-child(1) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .contact-pages div:nth-child(2) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .contact-pages div:nth-child(3) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .contact-pages div:nth-child(4) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .contact-pages div:nth-child(5) {
+     background-color: rgb(252, 252, 252);
+ }
+ 
+ .contact-pages div:nth-child(6) {
+     background-color: rgb(252, 252, 252);
+ }
